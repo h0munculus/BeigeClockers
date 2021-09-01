@@ -1,11 +1,9 @@
 .content-background {
       background-color: #b3ae9d
 }
-
 body, .ad {
       background-color: #7a7565;
 }
-
 .bg-orange {
       color: #fff !important;
       background-color: #61554b !important
@@ -113,7 +111,6 @@ body, .ad {
 .color-inherit svg {
       fill: inherit !important
 }
-
 .border-color-orange {
       border-color: #4c4138
 }
@@ -123,24 +120,20 @@ body, .ad {
 .border-color-grey-dark {
       border-color: #a8a39a
 }
-
 a,
 .link {
       color: #1f5994;
 }
-
 a.isDisabled,
 a.disabled,
 .link.isDisabled,
 .link.disabled {
       color: dimgray;
 }
-
 h1 {
       font-size: 18px;
       color: #553a11;
 }
-
 h5 {
       font-size: 15px
 }
@@ -179,7 +172,6 @@ h6 {
 .table > .body > .row.isSelected .cell {
       background: #b39f62 !important
 }
-
 input,
 select,
 textarea {
@@ -209,13 +201,11 @@ textarea[readonly=readonly] {
       fill: #888;
       background: #dbd2ca
 }
-
 input[type=file],
 select[type=file],
 textarea[type=file] {
       background-color: inherit;
 }
-
 button,
 .button {
       border: 1px solid #958a67;
@@ -232,7 +222,6 @@ button:hover,
 .button:hover {
       background: #c6b8a2;
 }
-
 button:active,
 .button:active {
       outline: none;
@@ -248,34 +237,27 @@ button[disabled] {
       color: #888 !important;
       fill: #888 !important;
 }
-
 .title {
       color: #51300b;
 }
-
 .widget-body.lists .list-wrapper .title {
       color: #fff;
 }
-
 .widget-body .list .list-item .thumb {
       background: #cdbeb1;
 }
-
 .widget-body .date {
       background-color: #a8a39a;
       color: #282828
 }
-
 .bbcode .bbIns {
       text-decoration: none;
       border-bottom: 1px dotted #47ad09;
       background-color: #d4fcbc
 }
-
 .bbPullQuote {
       color: #a8a39a;
 }
-
 .bbRelatedBox {
       border: 1px solid #a8a39a;
       background: #dcd8cc;
@@ -283,27 +265,22 @@ button[disabled] {
 .bbAbbr {
       border-bottom: 1px dotted rgba(40, 40, 40, .5)
 }
-
 .bbMark {
       background: #fffbba
 }
-
 .bbTable {
       border-top: 1px solid #cdc9c1;
       border-left: 1px solid #cdc9c1
 }
-
 .bbTable caption {
       border-bottom: 1px solid #cdc9c1;
       border-right: 1px solid #cdc9c1
 }
-
 .bbTable th,
 .bbTable td {
       border-bottom: 1px solid #cdc9c1;
       border-right: 1px solid #cdc9c1
 }
-
 .article-bbcode .bbBlockQuote:after {
       color: #6a6a6a
 }
@@ -312,13 +289,10 @@ button[disabled] {
       border-color: #33322e;
       color: #fff
 }
-
-
 .article-bbcode .bbTable tbody tr th {
       background-color: #dcd8cc;
       font-weight: bold
 }
-
 .bbAward .reason {
       overflow: hidden;
       color: #757575;
@@ -328,7 +302,6 @@ button[disabled] {
       color: #282828;
       border-bottom: 1px solid #f7f3eb;
 }
-
 .bbImage .imgControls {
       background: #1a1a1a;
       background: rgba(0, 0, 0, .25);
@@ -351,7 +324,6 @@ button[disabled] {
 .lightbox .lbOverlay {
       background-color: rgba(0, 0, 0, .65);
 }
-
 .bbSlideshow .slideControls {
       background: #1a1a1a;
       background: rgba(0, 0, 0, .25);
@@ -401,10 +373,9 @@ button[disabled] {
       background: #c5bdae;
       border: 1px solid #92877a;
 }
-
 .bbPre.showFrame {
-      border: 1px solid #b3afa6;
-      background: #9e8e5e
+      border: 1px solid #a19c91;
+      background: #d6cebf
 }
 .bbSpoiler .spoilerFrame {
       border: 1px solid #b3afa6;
@@ -461,7 +432,6 @@ button[disabled] {
 .toolbar .tbButton.iconButton .inner {
       border: 1px solid transparent
 }
-
 .toolbar .tbButton.iconButton:hover .inner {
       border: 1px solid #949cff;
       background: rgba(148, 156, 255, .1)
@@ -505,43 +475,16 @@ button[disabled] {
       background: #343330
 }
 .forum-post-body {
-      background-color: #e7e4d8;
+      background-color: #e2dcd0;
 }
 .forum-post-body .side {
-      color: dimgray;
-}
-
-@media(min-width: 577px) {
-      .forum-post-body .side {
-            background-color: #d0c9bd;
-      }
-}
-
-.forum-post-body .message .bbcode {
-      overflow: hidden
-}
-.forum-post-body .last-edited {
-      color: dimgray
-}
-.forum-post-body .controls .like .icon {
-      fill: dimgray
-}
-.forum-post-body .controls .like span {
-      margin-left: 2px
+      background-color: #cbc4b7;
 }
 .forum-post-body .controls .like.is-liked {
       color: #4c4138
 }
 .forum-post-body .controls .like.is-liked .icon {
       fill: #4c4138
-}
-.forum-post-body .signature .bbcode {
-      font-size: 12px
-}
-.forum-post .profile .avatar img {
-      display: block;
-      max-width: 60px;
-      max-height: 60px
 }
 .forum-post .profile .meta {
       color: #5a5a5a;
@@ -554,20 +497,15 @@ button[disabled] {
 }
 .forum-post button,
 .forum-post .button {
-      background: #f7f6f5;
-}
-.forum-post button svg,
-.forum-post .button svg {
-      fill: dimgray
+      background: #dcd0c5;
 }
 .forum-post button:hover,
 .forum-post .button:hover {
-      background: #fff
+      background: #e3d9d0
 }
 .forumPost {
       background: #e8e2d9;
 }
-
 .forumPost .table .cell.alt2 {
       background: #dcd8cc
 }
@@ -577,10 +515,6 @@ button[disabled] {
 .forumPost .bbTable tr:first-child th {
       background-color: #ccc
 }
-.forumPost.isLinked,
-.forumPost.isHidden.isAuthor.isLinked {
-      box-shadow: 0 0 5px 1px rgba(0, 0, 0, .85)
-}
 .forumPost.isLinked.isAuthor {
       box-shadow: 0 0 5px 2px #4c4138
 }
@@ -589,11 +523,9 @@ button[disabled] {
       color: #fff;
       margin-bottom: 0
 }
-
 .dateline {
       background-color: inherit;
 }
-
 .content-secondary .no-hover {
       background-color: #918473;
 }
@@ -873,9 +805,6 @@ button[disabled] {
       color: #fff;
       background: #ea2238
 }
-.cards > div {
-      border-top: 1px solid #b9afa0
-}
 .cards .title a {
       color: #ae630b;
 }
@@ -1134,26 +1063,20 @@ h6.title span {
       text-transform: uppercase;
       font-size: 46px
 }
-
 .tipsportal-header h2 {
       font-size: 20px;
       color: #2b2b2b
 }
-
 .tipsportal-header p {
       color: #2b2b2b
 }
-
 .tipsportal-header .about-fynd a {
       color: #ff8d2d
 }
-
-
 .tipsportal .vendor-header .ad-info {
       color: #999;
       font-size: 9px;
 }
-
 .tipsportal .vendor-name {
       font-family: Arial;
       color: #2b2b2b;
@@ -1171,38 +1094,27 @@ h6.title span {
       border-bottom: 1px solid #dcd8cc;
       border-right: 1px solid #dcd8cc
 }
-
-
 .tipsportal .vendor-products .product-price-offer {
       color: #545454;
       font-size: 18px
 }
-
 .tipsportal .vendor-products .product-price-regular {
       font-size: 9px;
       color: #999;
 }
-
-
 .tipsportal .vendor-products .product-price-savings {
       color: #fff;
       background: #ff8d2d;
 }
-
-
 .tipsportal .vendor-products .product-footer {
       background: #e7e5e0;
 }
-
-
 .tipsportal .vendor-products .product-descr {
       color: #6a6a6a
 }
-
 .tipsportal .vendor-guides .guide span {
       color: #2b2b2b;
 }
-
 .tipsportal .tips .sorter .is-current:hover {
       background-color: inherit;
       color: #1f5994
@@ -1210,18 +1122,14 @@ h6.title span {
 .tipsportal .tips .infoText {
       color: #9c9c9c;
 }
-
 .tipsportal .tips-header {
       border-bottom: 1px solid #b3afa6;
 }
-
 .tipsportal .tips-title {
       color: #2b2b2b;
       text-align: center;
       font-size: 20px
 }
-
-
 .tipsportal .tips-meta,
 .tipsportal .tips-row {
       color: #6a6a6a;
@@ -1233,8 +1141,6 @@ h6.title span {
       border-right: 1px solid #dcd8cc;
       background: #e6e4e0
 }
-
-
 .tipsportal .tips-row:hover .col-wrapper {
       background: #f0efd8
 }
@@ -1252,37 +1158,19 @@ h6.title span {
       color: #fff;
       background: #ff8d2d;
 }
-
-
-
 .tipsportal #guide-wrapper {
       background-color: #f3f3f0;
       color: #2b2b2b;
       border: solid 1px #e3e1df;
 }
-
 .article-sponsored {
       color: #dcd8cc;
       background-color: #282828;
 }
-
 .article-meta .category,
 .article-meta .comments {
       color: #4c4138
 }
-
 .article-authors hr {
       color: #dcd8cc;
-}
-.article-proofreading a {
-      border-top: 1px solid #dcd8cc
-}
-.comments-bubble {
-      color: #fff !important;
-}
-.comments-bubble .cb-top {
-      background: #4c4138 !important;
-}
-.comments-bubble .cb-bottom {
-      border-color: #4c4138
 }
