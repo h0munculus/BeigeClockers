@@ -1,5 +1,9 @@
+#content-container {
+    background-color: #b3ae9d;
+}
+
 .content-background {
-      background-color: #b3ae9d
+      background-color: #d5d2c8;
 }
 body, .ad {
       background-color: #7a7565;
@@ -575,7 +579,7 @@ button[disabled] {
       color: dimgray;
 }
 #header {
-      background-color: #d3d0c7;
+      background-color:#a8a090;
 }
 #adblockBanner {
       background: #e9e3d7;
